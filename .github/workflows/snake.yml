@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Update profile assets
 
 on:
   schedule:
@@ -15,6 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate open-source stats card
+        run: node scripts/stats-card.mjs "${{ github.repository_owner }}" dist/stats-card.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:

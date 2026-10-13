@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=70A5FD&center=true&vCenter=true&width=640&lines=Fixing+real+bugs+in+real+projects;Security+hardening+%26+OAuth+flows;Edge+cases+and+the+small+details;Contributing+to+openclaw%2C+onedrive%2C+supabase" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=70A5FD&center=true&vCenter=true&width=640&lines=Fixing+real+bugs+in+real+projects;Security+hardening+%26+OAuth+flows;Edge+cases+and+the+small+details;Merged+in+openclaw+%26+onedrive" alt="typing" />
 </p>
 
 <p align="center">
@@ -15,13 +15,13 @@
 ## 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,dotnet,c,lua,nodejs,postgres,supabase,git,github,linux,windows,vscode&perline=15&theme=dark" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,dotnet,c,lua,nodejs,git,github,linux,windows,vscode&perline=15&theme=dark" alt="tech stack" />
 </p>
 
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=maliv2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&border_radius=10" alt="stats" />
+  <img height="175" src="https://raw.githubusercontent.com/maliv2/maliv2/output/stats-card.svg" alt="open-source stats" />
   <img height="175" src="https://github-readme-streak-stats.herokuapp.com/?user=maliv2&theme=tokyonight&hide_border=true&border_radius=10" alt="streak" />
 </p>
 
@@ -29,17 +29,13 @@
 
 <p align="center">
   <a href="https://github.com/openclaw/openclaw"><img src="https://github-readme-stats.vercel.app/api/pin/?username=openclaw&repo=openclaw&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="openclaw" /></a>
-  <a href="https://github.com/abraunegg/onedrive"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abraunegg&repo=onedrive&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="onedrive" /></a>
-  <a href="https://github.com/supabase/supabase"><img src="https://github-readme-stats.vercel.app/api/pin/?username=supabase&repo=supabase&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="supabase" /></a>
-</p>
+  <a href="https://github.com/abraunegg/onedrive"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abraunegg&repo=onedrive&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="onedrive" /></a></p>
 
 | Project | Pull request | Status |
 | --- | --- | :---: |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Telegram: inline-button taps were timestamped with the card's send time instead of the tap time](https://github.com/openclaw/openclaw/pull/170210) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Suppress truncated silent replies across channels](https://github.com/openclaw/openclaw/pull/170190) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | ☁️ [**abraunegg/onedrive**](https://github.com/abraunegg/onedrive) | [Validate OAuth `state` on the local browser authentication callback](https://github.com/abraunegg/onedrive/pull/3911) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
-| ⚡ [**supabase/supabase**](https://github.com/supabase/supabase) | [Auth: reject off-site `next` in confirm and callback route examples](https://github.com/supabase/supabase/pull/51567) | ![open](https://img.shields.io/badge/open-2da44e?style=flat-square&logo=github) |
-
 ## 🐍 Contribution activity
 
 <p align="center">
