@@ -22,11 +22,10 @@ async function gql(query, variables) {
 const data = await gql(
   `query($q: String!, $login: String!) {
     search(query: $q, type: ISSUE, first: 100) {
-      nodes { ... on PullRequest { repository { nameWithOwner stargazerCount } } }
+      nodes { ... on PullRequest { additions deletions repository { nameWithOwner stargazerCount } } }
     }
     user(login: $login) {
       contributionsCollection {
-        totalCommitContributions
         contributionCalendar { totalContributions }
       }
     }
@@ -36,9 +35,13 @@ const data = await gql(
 
 const repos = new Map();
 let mergedPrs = 0;
+let additions = 0;
+let deletions = 0;
 for (const node of data.search.nodes) {
   if (!node?.repository) continue;
   mergedPrs++;
+  additions += node.additions;
+  deletions += node.deletions;
   repos.set(node.repository.nameWithOwner, node.repository.stargazerCount);
 }
 const totalStars = [...repos.values()].reduce((a, b) => a + b, 0);
@@ -60,7 +63,7 @@ const rows = [
   ["star", "Stars of projects I contribute to:", full(totalStars)],
   ["merge", "Merged upstream PRs:", full(mergedPrs)],
   ["repo", "Projects contributed to:", full(repos.size)],
-  ["commit", "Commits (last year):", full(cc.totalCommitContributions)],
+  ["commit", "Lines changed in merged PRs:", `+${full(additions)} / -${full(deletions)}`],
   ["pulse", "Contributions (last year):", full(cc.contributionCalendar.totalContributions)],
 ];
 
@@ -85,7 +88,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" vi
     .label { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; fill: #38bdae; }
     .value { font: 700 14px 'Segoe UI', Ubuntu, sans-serif; fill: #38bdae; }
     .icon { fill: #bf91f3; }
-    .big { font: 800 22px 'Segoe UI', Ubuntu, sans-serif; fill: #bf91f3; }
+    .big { font: 800 18px 'Segoe UI', Ubuntu, sans-serif; fill: #bf91f3; }
     .small { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; fill: #70a5fd; }
     .row { opacity: 0; animation: fade .3s ease-in-out forwards; }
     .ring { stroke-dasharray: ${circ}; stroke-dashoffset: ${circ}; animation: draw 1.2s ease-out forwards; }
@@ -99,7 +102,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" vi
     <circle r="${r}" fill="none" stroke="#70a5fd" stroke-opacity=".2" stroke-width="6"/>
     <circle class="ring" r="${r}" fill="none" stroke="#70a5fd" stroke-width="6" stroke-linecap="round" transform="rotate(-90)"/>
     <svg viewBox="0 0 16 16" width="16" height="16" x="-8" y="-28"><path class="icon" d="${icons.star}"/></svg>
-    <text class="big" text-anchor="middle" y="8">${compact(totalStars)}</text>
+    <text class="big" text-anchor="middle" y="7">${compact(totalStars)}</text>
     <text class="small" text-anchor="middle" y="24">stars</text>
   </g>
 </svg>
