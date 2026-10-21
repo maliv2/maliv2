@@ -2,7 +2,7 @@ name: Update profile assets
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -16,6 +16,20 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
+
+      - name: Update merged PRs in README
+        run: node scripts/update-readme.mjs "${{ github.repository_owner }}" README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit README
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update merged PRs"
+          git push
 
       - name: Generate open-source stats card
         run: node scripts/stats-card.mjs "${{ github.repository_owner }}" dist/stats-card.svg

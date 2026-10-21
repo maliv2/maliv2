@@ -27,16 +27,20 @@
 
 ## 🤝 Open-source contributions
 
+<!-- MERGED-PRS:START -->
 <p align="center">
   <a href="https://github.com/openclaw/openclaw"><img src="https://github-readme-stats.vercel.app/api/pin/?username=openclaw&repo=openclaw&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="openclaw" /></a>
-  <a href="https://github.com/abraunegg/onedrive"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abraunegg&repo=onedrive&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="onedrive" /></a></p>
+  <a href="https://github.com/abraunegg/onedrive"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abraunegg&repo=onedrive&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="onedrive" /></a>
+</p>
 
 | Project | Pull request | Status |
 | --- | --- | :---: |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Config: warn when `logging.redactPatterns` entries are silently ignored](https://github.com/openclaw/openclaw/pull/172551) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Telegram: inline-button taps were timestamped with the card's send time instead of the tap time](https://github.com/openclaw/openclaw/pull/170210) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
-| 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Suppress truncated silent replies across channels](https://github.com/openclaw/openclaw/pull/170190) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | ☁️ [**abraunegg/onedrive**](https://github.com/abraunegg/onedrive) | [Validate OAuth `state` on the local browser authentication callback](https://github.com/abraunegg/onedrive/pull/3911) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
+| 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Suppress truncated silent replies across channels](https://github.com/openclaw/openclaw/pull/170190) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
+<!-- MERGED-PRS:END -->
+
 ## 🐍 Contribution activity
 
 <p align="center">
