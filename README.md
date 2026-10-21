@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/maliv2"><img src="https://img.shields.io/github/followers/maliv2?label=Followers&style=for-the-badge&logo=github&color=1a1b27&labelColor=3d59a1" alt="followers" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Amaliv2+is%3Amerged+-user%3Amaliv2"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-3-8957e5?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1b27" alt="merged PRs" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Amaliv2+is%3Amerged+-user%3Amaliv2"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-4-8957e5?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1b27" alt="merged PRs" /></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=maliv2.maliv2&left_color=%233d59a1&right_color=%231a1b27&left_text=Profile%20views" alt="profile views" height="28" />
 </p>
 
@@ -33,6 +33,7 @@
 
 | Project | Pull request | Status |
 | --- | --- | :---: |
+| 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Config: warn when `logging.redactPatterns` entries are silently ignored](https://github.com/openclaw/openclaw/pull/172551) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Telegram: inline-button taps were timestamped with the card's send time instead of the tap time](https://github.com/openclaw/openclaw/pull/170210) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Suppress truncated silent replies across channels](https://github.com/openclaw/openclaw/pull/170190) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | ☁️ [**abraunegg/onedrive**](https://github.com/abraunegg/onedrive) | [Validate OAuth `state` on the local browser authentication callback](https://github.com/abraunegg/onedrive/pull/3911) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
