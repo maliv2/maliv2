@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/maliv2"><img src="https://img.shields.io/github/followers/maliv2?label=Followers&style=for-the-badge&logo=github&color=1a1b27&labelColor=3d59a1" alt="followers" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Amaliv2+is%3Amerged+-user%3Amaliv2"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-4-8957e5?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1b27" alt="merged PRs" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Amaliv2+is%3Amerged+-user%3Amaliv2"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-0-8957e5?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1b27" alt="merged PRs" /></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=maliv2.maliv2&left_color=%233d59a1&right_color=%231a1b27&left_text=Profile%20views" alt="profile views" height="28" />
 </p>
 
