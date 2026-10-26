@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=70A5FD&center=true&vCenter=true&width=640&lines=Fixing+real+bugs+in+real+projects;Security+hardening+%26+OAuth+flows;Edge+cases+and+the+small+details;Merged+in+onedrive,+openclaw+%26+feluda" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=70A5FD&center=true&vCenter=true&width=640&lines=Fixing+real+bugs+in+real+projects;Security+hardening+%26+OAuth+flows;Edge+cases+and+the+small+details;Merged+in+openclaw,+onedrive+%26+feluda" alt="typing" />
 </p>
 
 <p align="center">
   <a href="https://github.com/maliv2"><img src="https://img.shields.io/github/followers/maliv2?label=Followers&style=for-the-badge&logo=github&color=1a1b27&labelColor=3d59a1" alt="followers" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Amaliv2+is%3Amerged+-user%3Amaliv2"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-7-8957e5?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1b27" alt="merged PRs" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Amaliv2+is%3Amerged+-user%3Amaliv2"><img src="https://img.shields.io/badge/Merged%20upstream%20PRs-9-8957e5?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1b27" alt="merged PRs" /></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=maliv2.maliv2&left_color=%233d59a1&right_color=%231a1b27&left_text=Profile%20views" alt="profile views" height="28" />
 </p>
 
@@ -29,13 +29,15 @@
 
 <!-- MERGED-PRS:START -->
 <p align="center">
-  <a href="https://github.com/abraunegg/onedrive"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abraunegg&repo=onedrive&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="onedrive" /></a>
   <a href="https://github.com/openclaw/openclaw"><img src="https://github-readme-stats.vercel.app/api/pin/?username=openclaw&repo=openclaw&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="openclaw" /></a>
+  <a href="https://github.com/abraunegg/onedrive"><img src="https://github-readme-stats.vercel.app/api/pin/?username=abraunegg&repo=onedrive&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="onedrive" /></a>
   <a href="https://github.com/anistark/feluda"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anistark&repo=feluda&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="feluda" /></a>
 </p>
 
 | Project | Pull request | Status |
 | --- | --- | :---: |
+| 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Gateway: silent exec-completion prompts show as user messages in imported Claude CLI history](https://github.com/openclaw/openclaw/pull/174780) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
+| 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Heartbeat: periodic-task heartbeat prompts are shown as user messages](https://github.com/openclaw/openclaw/pull/174815) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | ☁️ [**abraunegg/onedrive**](https://github.com/abraunegg/onedrive) | [Escape regex metacharacters in 'skip_file' and 'skip_dir' patterns](https://github.com/abraunegg/onedrive/pull/3922) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Mcp: concurrent agents fail tool calls while a shared OAuth credential is leased](https://github.com/openclaw/openclaw/pull/179997) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 📦 [**anistark/feluda**](https://github.com/anistark/feluda) | [Go: stop reading go.mod from the working directory for licenses](https://github.com/anistark/feluda/pull/302) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
