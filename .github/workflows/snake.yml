@@ -31,18 +31,10 @@ jobs:
           git commit -m "Update merged PRs"
           git push
 
-      - name: Generate open-source stats card
-        run: node scripts/stats-card.mjs "${{ github.repository_owner }}" dist/stats-card.svg
+      - name: Render profile cards
+        run: node scripts/profile-svg.mjs "${{ github.repository_owner }}" dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v5

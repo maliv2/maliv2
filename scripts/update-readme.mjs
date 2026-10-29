@@ -18,7 +18,7 @@ const res = await fetch("https://api.github.com/graphql", {
   body: JSON.stringify({
     query: `query($q: String!) {
       search(query: $q, type: ISSUE, first: 100) {
-        nodes { ... on PullRequest { title url mergedAt repository { name nameWithOwner owner { login } } } }
+        nodes { ... on PullRequest { title url mergedAt repository { nameWithOwner owner { login } } } }
       }
     }`,
     variables: { q: `is:pr is:merged author:${login} -user:${login}` },
@@ -51,13 +51,6 @@ const pretty = (title) => {
 };
 const md = (t) => t.replace(/\|/g, "\\|").replace(/\[/g, "\\[").replace(/\]/g, "\\]");
 
-const repos = [...new Map(prs.map((p) => [p.repository.nameWithOwner, p.repository])).values()];
-const pins = repos
-  .map(
-    (r) =>
-      `  <a href="https://github.com/${r.nameWithOwner}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${r.owner.login}&repo=${r.name}&theme=tokyonight&hide_border=true&border_radius=10&description_lines_count=2" alt="${r.name}" /></a>`,
-  )
-  .join("\n");
 const badge = "![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github)";
 const rows = prs
   .map((p) => {
@@ -68,21 +61,13 @@ const rows = prs
   .join("\n");
 
 const section = `${START}
-<p align="center">
-${pins}
-</p>
 
 | Project | Pull request | Status |
 | --- | --- | :---: |
 ${rows}
+
 `;
 readme = readme.slice(0, s) + section + readme.slice(e);
 
-// Header badge count and the typing line's "Merged in a, b & c".
-readme = readme.replace(/Merged%20upstream%20PRs-\d+-/, `Merged%20upstream%20PRs-${prs.length}-`);
-const names = repos.map((r) => r.name);
-const list = names.length > 1 ? `${names.slice(0, -1).join(",+")}+%26+${names.at(-1)}` : names[0] ?? "";
-readme = readme.replace(/Merged\+in\+[^";&]*/, `Merged+in+${list}`);
-
 writeFileSync(file, readme);
-console.log(`mergedPrs=${prs.length} repos=${repos.map((r) => r.nameWithOwner).join(",")}`);
+console.log(`mergedPrs=${prs.length}`);
