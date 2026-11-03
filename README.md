@@ -19,6 +19,7 @@ Most of my work lands in other people's repositories: small, careful fixes for t
 
 | Project | Pull request | Status |
 | --- | --- | :---: |
+| 📦 [**nvm-sh/nvm**](https://github.com/nvm-sh/nvm) | [\[Fix\] `nvm use`: do not pile up `PATH` entries in nested sessions](https://github.com/nvm-sh/nvm/pull/3959) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Gateway: silent exec-completion prompts show as user messages in imported Claude CLI history](https://github.com/openclaw/openclaw/pull/174780) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | 🦞 [**openclaw/openclaw**](https://github.com/openclaw/openclaw) | [Heartbeat: periodic-task heartbeat prompts are shown as user messages](https://github.com/openclaw/openclaw/pull/174815) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
 | ☁️ [**abraunegg/onedrive**](https://github.com/abraunegg/onedrive) | [Escape regex metacharacters in 'skip_file' and 'skip_dir' patterns](https://github.com/abraunegg/onedrive/pull/3922) | ![merged](https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github) |
