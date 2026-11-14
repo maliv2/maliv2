@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="t">
+  <title id="t">Mali (maliv2): 10 merged upstream pull requests across 4 open-source projects</title>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .accent { fill: #d9480f; }
+    .add { fill: #1a7f37; } .del { fill: #cf222e; }
+    .in { opacity: 0; animation: in .5s ease-out forwards; }
+    .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.4s ease-out forwards; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes pulse { from { opacity: .8; transform: scale(1); } to { opacity: 0; transform: scale(3.2); } }
+    
+  </style>
+  <rect x=".5" y=".5" width="899" height="319" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="40" y="46" class="mono muted" font-size="13">~/maliv2 <tspan class="accent">●</tspan> main</text>
+  <text x="860" y="46" text-anchor="end" class="mono muted" font-size="13">upstream only · updated every 6h</text>
+  <g class="in" style="animation-delay:100ms"><text x="38" y="128" class="sans fg" font-size="68" font-weight="800" letter-spacing="-2">Mali<tspan class="accent">.</tspan></text></g>
+  <g class="in" style="animation-delay:250ms"><text x="40" y="168" class="sans fg" font-size="21">I fix the bugs that hide in edge cases.</text></g>
+  <g class="in" style="animation-delay:400ms"><text x="40" y="196" class="mono muted" font-size="13">security · oauth · concurrency · parsing — in other people's code</text></g>
+  <g class="in" style="animation-delay:300ms"><text x="560" y="122" text-anchor="end" class="sans fg" font-size="40" font-weight="700">10</text>
+    <text x="560" y="144" text-anchor="end" class="mono muted" font-size="12">merged PRs</text></g>
+  <g class="in" style="animation-delay:420ms"><text x="690" y="122" text-anchor="end" class="sans fg" font-size="40" font-weight="700">4</text>
+    <text x="690" y="144" text-anchor="end" class="mono muted" font-size="12">projects</text></g>
+  <g class="in" style="animation-delay:540ms"><text x="860" y="122" text-anchor="end" class="sans fg" font-size="40" font-weight="700">★ 504k</text>
+    <text x="860" y="144" text-anchor="end" class="mono muted" font-size="12">stars on those repos</text></g>
+  <path class="draw" pathLength="1" d="M40 262 H860" stroke="#d0d7de" stroke-width="2" style="animation-delay:300ms"/>
+  <text x="40" y="296" class="mono muted" font-size="12">first merge · 2026-10-13</text>
+  <text x="860" y="296" text-anchor="end" class="mono muted" font-size="12"><tspan class="add">+2,179</tspan> <tspan class="del">−174</tspan> lines merged</text>
+  <path class="draw" pathLength="1" d="M96 262 C115.2 262 108.8 240 124.8 240 L140.8 240 C156.8 240 150.4 262 160 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:600ms"/>
+    <circle class="in" cx="133.12" cy="240" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:900ms"/>
+    <circle class="in" cx="160" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1100ms"/>
+    <path class="draw" pathLength="1" d="M171.55555555555554 262 C190.75555555555553 262 184.35555555555555 228 200.35555555555555 228 L216.35555555555555 228 C232.35555555555555 228 225.95555555555555 262 235.55555555555554 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:720ms"/>
+    <circle class="in" cx="208.67555555555555" cy="228" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1020ms"/>
+    <circle class="in" cx="235.55555555555554" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1220ms"/>
+    <path class="draw" pathLength="1" d="M247.1111111111111 262 C266.3111111111111 262 259.9111111111111 234 275.9111111111111 234 L291.9111111111111 234 C307.9111111111111 234 301.51111111111106 262 311.1111111111111 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:840ms"/>
+    <circle class="in" cx="284.2311111111111" cy="234" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1140ms"/>
+    <circle class="in" cx="311.1111111111111" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1340ms"/>
+    <path class="draw" pathLength="1" d="M322.6666666666667 262 C341.8666666666667 262 335.4666666666667 240 351.4666666666667 240 L367.4666666666667 240 C383.4666666666667 240 377.06666666666666 262 386.6666666666667 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:960ms"/>
+    <circle class="in" cx="359.7866666666667" cy="240" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1260ms"/>
+    <circle class="in" cx="386.6666666666667" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1460ms"/>
+    <path class="draw" pathLength="1" d="M398.22222222222223 262 C417.4222222222222 262 411.02222222222224 228 427.02222222222224 228 L443.02222222222224 228 C459.02222222222224 228 452.6222222222222 262 462.22222222222223 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:1080ms"/>
+    <circle class="in" cx="435.34222222222223" cy="228" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1380ms"/>
+    <circle class="in" cx="462.22222222222223" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1580ms"/>
+    <path class="draw" pathLength="1" d="M473.7777777777778 262 C492.9777777777778 262 486.57777777777784 234 502.57777777777784 234 L518.5777777777778 234 C534.5777777777778 234 528.1777777777778 262 537.7777777777778 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:1200ms"/>
+    <circle class="in" cx="510.89777777777783" cy="234" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1500ms"/>
+    <circle class="in" cx="537.7777777777778" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1700ms"/>
+    <path class="draw" pathLength="1" d="M549.3333333333334 262 C568.5333333333334 262 562.1333333333333 240 578.1333333333333 240 L594.1333333333333 240 C610.1333333333333 240 603.7333333333333 262 613.3333333333334 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:1320ms"/>
+    <circle class="in" cx="586.4533333333334" cy="240" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1620ms"/>
+    <circle class="in" cx="613.3333333333334" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1820ms"/>
+    <path class="draw" pathLength="1" d="M624.8888888888889 262 C644.088888888889 262 637.6888888888889 228 653.6888888888889 228 L669.6888888888889 228 C685.6888888888889 228 679.2888888888889 262 688.8888888888889 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:1440ms"/>
+    <circle class="in" cx="662.0088888888889" cy="228" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1740ms"/>
+    <circle class="in" cx="688.8888888888889" cy="262" r="4.5" fill="#d9480f" style="animation-delay:1940ms"/>
+    <path class="draw" pathLength="1" d="M700.4444444444445 262 C719.6444444444445 262 713.2444444444444 234 729.2444444444444 234 L745.2444444444444 234 C761.2444444444444 234 754.8444444444444 262 764.4444444444445 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:1560ms"/>
+    <circle class="in" cx="737.5644444444445" cy="234" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1860ms"/>
+    <circle class="in" cx="764.4444444444445" cy="262" r="4.5" fill="#d9480f" style="animation-delay:2060ms"/>
+    <path class="draw" pathLength="1" d="M776 262 C795.2 262 788.8 240 804.8 240 L820.8 240 C836.8 240 830.4 262 840 262" fill="none" stroke="#d9480f" stroke-opacity=".55" stroke-width="1.5" style="animation-delay:1680ms"/>
+    <circle class="in" cx="813.12" cy="240" r="3" fill="#ffffff" stroke="#d9480f" stroke-width="1.5" style="animation-delay:1980ms"/>
+    <circle class="in" cx="840" cy="262" r="4.5" fill="#d9480f" style="animation-delay:2180ms"/>
+  <circle class="pulse" cx="840" cy="262" r="4.5" fill="#d9480f"/>
+</svg>
